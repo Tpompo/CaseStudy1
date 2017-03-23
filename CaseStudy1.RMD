@@ -1,3 +1,4 @@
+---
 title: "CaseStudy1"
 author: "Tommy Pompo"
 date: "March 9, 2017"
