@@ -9,7 +9,7 @@ output:
 
 # Introduction
 The following code examines data for the GDP and Incomes of many countries. I attempt to answer a number of questions
-about possible relaionships within the data. The data used is from the world bank, and specfically are 
+about possible relaionships within the data. In order to do this I first had to clean and merge the data. The data used is from the world bank, and specfically are 
 GDP data and educatonal data of many countries.
 
 
@@ -149,4 +149,5 @@ ggplot(data=mergedata1,aes(Income.Group, GDPrank, color = Income.Group))
 #Conclusion
 Countries with OECD and a high income have considerably higher GDPs than those without OECD.
 This is interesting but not nearly enough information to make any kind of definitive statement.
+As this is an observational study we cannot find definite causation, only correlation.
 We should conduct further analysis.
